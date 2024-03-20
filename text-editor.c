@@ -1,11 +1,11 @@
 #include <gtk/gtk.h>
+/////Merhaba
 
 static void activate_open_file(GtkApplication* app, gpointer user_data) {
     GtkWidget* dialog;
     GtkFileChooserAction action = GTK_FILE_CHOOSER_ACTION_OPEN;
     gint res;
 
-    dialog = gtk_file_chooser_dialog_new("Open File",
         GTK_WINDOW(gtk_application_get_active_window(app)),
         action,
         "_Cancel", GTK_RESPONSE_CANCEL,
