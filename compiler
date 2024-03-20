@@ -1,0 +1,1 @@
+gcc -o text-editor text-editor.c `pkg-config --cflags --libs gtk+-3.0`
