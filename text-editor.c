@@ -1,5 +1,5 @@
 #include <gtk/gtk.h>
-/////Merhaba
+
 
 static void activate_open_file(GtkApplication* app, gpointer user_data) {
     GtkWidget* dialog;
