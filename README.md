@@ -1,4 +1,4 @@
-# Text_Editor2.0
+# GUI_Text_Editor
 
 ## GTK+ Text Editor
 This is a simple text editor application built using the GTK+ toolkit and the C programming language. The editor provides a basic graphical user interface (GUI) with functionality to open, save, and edit text files.
